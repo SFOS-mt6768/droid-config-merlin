@@ -20,6 +20,11 @@
 
 %define android_version_major 10
 
+Provides: ofono-configs
+Obsoletes: ofono-configs-binder
+Provides: bluez5-configs
+Obsoletes: bluez5-configs-mer
+
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-merlin.inc
 %include patterns/patterns-sailfish-device-configuration-merlin.inc
